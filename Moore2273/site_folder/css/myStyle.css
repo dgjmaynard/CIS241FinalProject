@@ -1,0 +1,232 @@
+/* STYLE SHEET FOR Deborah Moore Web Page */
+
+body
+{
+font-family: Arial, Helvetica, Geneva, Swiss, sans-serif;
+background-color:#CCCCCC;
+}
+h1
+{
+font-weight: bold;
+/* text-decoration: underline; */
+text-align: center;
+color: purple;
+font-size: 300%;
+margin-bottom: 25px;
+margin-top:0px;
+}
+h2
+{
+font-weight: bold; 
+font-size: 200%; 
+font-family: Arial, Helvetica, Geneva, Swiss, sans-serif;
+}
+
+h3
+{
+font-weight: bold; 
+font-size: 120%;
+font-family: Arial, Helvetica, Geneva, Swiss, sans-serif;
+}
+
+h4
+{
+font-weight: bold;
+font-size: 110%;
+font-family:  Arial, Helvetica, Geneva, Swiss, sans-serif;
+}
+
+h5
+{
+font-weight: bold;
+font-size: 100%;
+font-family:  Arial, Helvetica, Geneva, Swiss, sans-serif;
+}
+
+
+form
+{
+padding-left:100px;
+padding-bottom:50px;
+}
+
+
+header
+{
+/* background-color:#CCCCCC; */
+background-color:#ea9eeb;
+background-image: url(../images/header.jpg)
+color: purple;
+	text-align: center;
+    border-width: 2px;
+    border-color: purple;
+    border-style: solid;
+	margin-left:7.5%;
+	margin-right:7.5%;	
+}
+
+article 	
+{	
+margin-left:7.5%;
+margin-right:7.5%;
+background-color:#ffffff;
+}
+
+Nav
+{
+display:block;
+background-color:##CCCCCC;
+max-width:85%;	
+height:15%;
+margin-left:auto;
+margin-right:auto;
+}
+
+
+.container
+{
+display:grid;
+grid-template-columns: 20% 20% 20% 20% 20%;
+grid-template-rows: 20% 20%  20%;
+grid-row-gap: 50px;
+margin-left:50px;
+margin-right:50px;
+margin-bottom: 0px;
+}
+
+.item1 
+{
+grid-area: 1 / 2 / 4/ 5;
+margin: 50px;
+font-size: 18px;
+}
+ 
+.container2
+{
+display:grid;
+grid-template-columns: 30% 65%;
+grid-row-gap: 50px;
+grid-column-gap: 25px;
+margin:50px;
+font-size: 18px;
+}
+
+div.right {
+float: right;
+padding: 5px;
+}
+
+.container3
+{
+display:grid;
+grid-template-columns: 65% 30%;
+grid-row-gap: 50px;
+grid-column-gap: 25px;
+margin:50px;
+font-size: 18px;
+}
+
+img
+{
+max-width:85%;
+height:auto;
+}
+
+img.floatright
+{
+float:right;
+max-width: 20%;
+min-width: 150px;
+} 
+
+img.floatleft
+{
+float:left;
+max-width: 20%;
+min-width: 150px;
+}
+
+iframe
+{
+width:100%;
+height:100%;
+}
+
+.iframe-container
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+	height:400px;
+}
+
+img.center 
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 85%; */
+} 
+
+video.center 
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+} 
+
+img.button
+{
+margin-left:auto;
+margin-right:auto;	
+height:auto;
+max-width:20%;
+min-width:73px;
+}
+
+img.border
+{
+width: 30%;
+border: 2px solid black;
+vertical-align: top;
+}
+
+table
+{
+margin-right:auto;
+margin-left:auto;
+border:2px solid black;
+width: 75%
+}
+
+ul 
+{
+margin: 0;
+}
+
+footer
+{
+/* background-color:#CCCCCC; */
+background-color:#ea9eeb;
+    color: purple;
+	text-align: center;
+    border-width: 2px;
+    border-color: purple;
+    border-style: solid;
+	margin-left:7.5%;
+	margin-right:7.5%;
+}	
+
+p.margin
+{
+margin-right: 30px;
+margin-left: 30px;	
+}
+
+td
+{
+padding-left: 30px;	
+padding-right: 30px;
+}

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta name="author" content="Deborah Moore"/>
+		<meta name="Keywords" content="Deborah Moore, Forever Moore Sweets, Cookie Cutters, 3D Printing"/>
+		<meta name="Description" content="Webpage for Deborah Moore's Resume, Interests, Reflections and Guestbook"/>
+		<meta charset="utf-8"/>
+		<meta name="robots" content="follow"/>
+		<meta http-equiv="refresh" content="300" />
+		<link rel="stylesheet" type="text/css" href="../css/mystyle.css"/>
+		<title>Guestbook Page - Deborah Moore</title>
+	</head>
+<body>
+<h1>Deborah Moore's Guestbook</h1>
+			<header>   
+					<img height="200" width="200" src="../images/Deborah_Moore_pic.jpg" alt="Deborah Moore photo" class="center"> 
+            </header>
+		<nav>
+			<a href="../html/home.html"><img src="../images/home.jpg" alt="Go back to the Home page." id="Home" /></a>
+			<a href="../html/resume.html"><img src="../images/resume.jpg" alt="Click here to review my resume." id="Resume" /></a>
+			<a href="../html/interests.html"><img src="../images/interests.jpg" alt="Click here to see my interests." id="Interests" /></a>
+			<a href="../html/reflections.html"><img src="../images/reflections.jpg" alt="Click here to see my life reflections." id="Reflections" /></a>
+			<a href="../html/guestbook.html"><img src="../images/guestbook.jpg" alt="Link goes back to current page." id="Guestbook" /></a>
+		</nav>
+<article>
+<br><br>
+<h2 style="color:purple; text-align:center; margin-top:0px;" >I would like to know more about you.</h2>
+<br/>
+<form
+method="post"
+action="http://ss1.ciwcertified.com/cgi-bin/process.pl">
+		<strong>First Name</strong>
+        <blockquote>
+            <input class="text-form" type="text" placeholder="Your name." name="first-name" />
+        </blockquote>
+
+        <strong>Last Name</strong>
+        <blockquote>
+            <input class="text-form" type="text" placeholder="Your last name." name="last-name" />
+        </blockquote>
+
+        <strong>Company</strong>
+        <blockquote>
+            <input class="text-form" type="text" placeholder="Your company." name="company" />
+        </blockquote>
+
+        <strong>Phone Number</strong>
+        <blockquote>
+            <input class="text-form" type="text" placeholder="Your telephone number." name="phone" />
+        </blockquote>
+
+        <strong>Email Address</strong>
+        <blockquote>
+            <input class="text-form" type="text" placeholder="Your email address." name="email" />
+        </blockquote>
+		
+		<strong>Your Website</strong>
+        <blockquote>
+            <input class="text-form" type="text" placeholder="http://" name="website" />
+        </blockquote>
+
+        <strong>Country</strong>
+        <blockquote>
+            <input class="text-form" type="text" placeholder="Your country." name="country" />
+        </blockquote>
+
+		<strong>Do you like to eat cookies?</strong>
+        <br/>
+			<input type="radio" name="LikesCookies" value="yes" checked="checked" />Yes
+        <br/>
+			<input type="radio" name="LikesCookies" value="no" />No
+        <br/>
+		<br/>
+		<strong>If yes, what are your favorite flavors?</strong><br/>
+            <textarea name="FavCookies" placeholder="List your favorite cookie flavors." cols="50" rows="4"></textarea>
+			<br/>
+		<br/>
+  
+		<strong>What is your experience as a Web Developer?</strong><br/>
+			<input type="radio" name="Web_experience" value="None" checked="checked"/>None<br/>
+			<input type="radio" name="Web_experience" value="Beginner"/>Beginner<br/>
+			<input type="radio" name="Web_experience" value="Intermediate"/>Intermediate<br/>
+			<input type="radio" name="Web_experience" value="Advanced"/>Advanced<br/>
+		<br/>
+		<br/>
+		<strong>Should we add you to our mailing list?</strong>
+			<input type="checkbox" name="mailinglist"/><br/>
+		<br/>
+		<br/>
+		<strong>What web technologies are you interested in?? (check all that apply):</strong><br/>
+			<select name="interests" multiple="multiple" size="6">
+				<option>HTML</option>
+				<option>CSS</option>
+				<option>JavaScript</option>
+				<option>AJAX</option>
+				<option>SQL</option>
+				<option>PHP</option>
+			</select>
+		<br/>
+		<br/>
+		<strong>How did you find my website?</strong>
+		<br/>
+			<select name="website">
+				<option>Select one</option>
+				<option>I'm a friend</option>
+				<option>A friend directed me to your site</option>
+				<option>School Web Site</option>
+				<option>A search engine directed me to your site</option>
+				<option>I came across your site by accident</option>
+				<option>Other</option>
+			</select>
+		<br/>
+		<br/>
+		<strong>Comments</strong><br>
+		<textarea name="comments" cols="50" rows="6">
+			Enter your message here.
+		</textarea>
+		<br/>
+		<br/>
+		<input type="Submit" value="Submit"/>
+		<input type="reset"/>
+</form>
+</article>
+		<footer>
+			<!-- <img src="../images/footer2.jpg" alt="Page Footer" class="center"> -->
+			<p>Contact Information:</p>
+			<p><a href="mailto:d.moore7499@edmail.edcc.edu">Email: d.moore7499@edmail.edcc.edu</a></p>
+		</footer>
+		<br><br>
+
+</body>
+</html>
